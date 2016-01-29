@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
 		setUpData();
 		mTagListView.setTags(mTags);
 		
-		aaf
 	}
 
 	private void setUpData() {

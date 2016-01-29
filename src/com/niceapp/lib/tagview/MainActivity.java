@@ -11,8 +11,8 @@ public class MainActivity extends Activity {
 
 	private TagListView mTagListView;
 	private final List<Tag> mTags = new ArrayList<Tag>();
-	private final String[] titles = { "°²È«±Ø±¸", "ÒôÀÖ", "¸¸Ä¸Ñ§", "ÉÏ°à×å±Ø±¸", 
-			"360ÊÖ»úÎÀÊ¿", "QQ","ÊäÈë·¨", "Î¢ĞÅ", "×îÃÀÓ¦ÓÃ", "AndevUI", "Ä¢¹½½Ö" };
+	private final String[] titles = { "å®‰å…¨å¿…å¤‡", "éŸ³ä¹", "çˆ¶æ¯å­¦", "ä¸Šç­æ—å¿…å¤‡", 
+			"360æ‰‹æœºå«å£«", "QQ","è¾“å…¥æ³•", "å¾®ä¿¡", "æœ€ç¾åº”ç”¨", "AndevUI", "è˜‘è‡è¡—" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
 		mTagListView = (TagListView) findViewById(R.id.tagview);
 		setUpData();
 		mTagListView.setTags(mTags);
+		
+		aaf
 	}
 
 	private void setUpData() {
